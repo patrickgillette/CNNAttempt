@@ -12,7 +12,7 @@ import pathlib
 import TrainingClasses as tc
 from PIL import Image  # Add this import at the top of your file
 
-
+#Comment to save GIT
 
 if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
